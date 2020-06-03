@@ -1,0 +1,42 @@
+{
+  "name": "eg-keycloak-token-plugin",
+  "version": "1.0.2",
+  "description": "Express Gateway Plugin for Keycloak (Bearer Token Method Only)",
+  "main": "manifest.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatk16/eg-keycloak-token-plugin.git"
+  },
+  "keywords": [
+    "Express",
+    "Keycloak",
+    "API",
+    "Gateway"
+  ],
+  "author": {
+    "email": "rajat.sudagade@gmail.com",
+    "name": "Rajat S"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajatk16/eg-keycloak-token-plugin/issues"
+  },
+  "homepage": "https://github.com/rajatk16/eg-keycloak-token-plugin#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/express-session": "^1.17.0",
+    "@types/json-schema": "^7.0.4",
+    "@types/keycloak-connect": "^4.5.4",
+    "@types/node": "^14.0.9",
+    "express-gateway": "^1.16.10",
+    "json-schema": "^0.2.5",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "keycloak-connect": "^10.0.2",
+    "memorystore": "^1.6.2"
+  }
+}
